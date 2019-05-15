@@ -128,16 +128,16 @@
                   <a name="main">
                   </a> <!-- main -->
                   <span class="method-name">main</span>
-                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/rohu/Downloads/driver/chromedriver
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver is not executable: /Users/rohu/IdeaProjects/demo/target/classes/chromedriver
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
-	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:141)
 	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
 	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
 	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
 	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
 	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at com.ChromeTest.main(ChromeTest.java:15)
+	at com.ChromeTest.main(ChromeTest.java:16)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -200,12 +200,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'main')
 data.setCell(0, 2, 'com.ChromeTest')
-data.setCell(0, 3, 212);
+data.setCell(0, 3, 134);
 window.suiteTableData['testng']= { tableData: data, tableDiv: 'times-div-testng'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 212 ms</span>
+              <span class="suite-total-time">Total running time: 134 ms</span>
               <div id="times-div-testng">
               </div> <!-- times-div-testng -->
             </div> <!-- times-div -->

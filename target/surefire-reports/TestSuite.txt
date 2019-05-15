@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.998 s <<< FAILURE! - in TestSuite
-main(com.ChromeTest)  Time elapsed: 0.223 s  <<< FAILURE!
-java.lang.IllegalStateException: The driver executable does not exist: /Users/rohu/Downloads/driver/chromedriver
-	at com.ChromeTest.main(ChromeTest.java:15)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.628 s <<< FAILURE! - in TestSuite
+main(com.ChromeTest)  Time elapsed: 0.148 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /Users/rohu/IdeaProjects/demo/target/classes/chromedriver
+	at com.ChromeTest.main(ChromeTest.java:16)
 
