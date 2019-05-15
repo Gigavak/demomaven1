@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-testng">
-              <span class="suite-name border-passed">testng</span>
+              <span class="suite-name border-failed">testng</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-testng" class="hide-methods passed suite-testng"> (hide)</a> <!-- hide-methods passed suite-testng -->
-                      <a href="#" panel-name="suite-testng" class="show-methods passed suite-testng"> (show)</a> <!-- show-methods passed suite-testng -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-testng" class="hide-methods failed suite-testng"> (hide)</a> <!-- hide-methods failed suite-testng -->
+                      <a href="#" panel-name="suite-testng" class="show-methods failed suite-testng"> (show)</a> <!-- show-methods failed suite-testng -->
                     </span>
-                    <div class="method-list-content passed suite-testng">
+                    <div class="method-list-content failed suite-testng">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-testng" title="com.ChromeTest" hash-for-method="main">main</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-testng -->
+                    </div> <!-- method-list-content failed suite-testng -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-testng" class="panel testng">
-          <div class="suite-testng-class-passed">
+          <div class="suite-testng-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">com.ChromeTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,10 +128,22 @@
                   <a name="main">
                   </a> <!-- main -->
                   <span class="method-name">main</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: /Users/rohu/Downloads/chromedriver
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.ChromeTest.main(ChromeTest.java:15)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-testng-class-passed -->
+          </div> <!-- suite-testng-class-failed -->
         </div> <!-- panel testng -->
         <div panel-name="test-xml-testng" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -188,12 +200,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'main')
 data.setCell(0, 2, 'com.ChromeTest')
-data.setCell(0, 3, 11402);
+data.setCell(0, 3, 133);
 window.suiteTableData['testng']= { tableData: data, tableDiv: 'times-div-testng'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 133 ms</span>
               <div id="times-div-testng">
               </div> <!-- times-div-testng -->
             </div> <!-- times-div -->
@@ -221,6 +233,8 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.ChromeTest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">main</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->

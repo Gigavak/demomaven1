@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d10cb439-6666-43d3-a84f-5934408be0c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ChromeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.ChromeTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/ChromeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ChromeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ChromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/1-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChromeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Custom suite/TestNG.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Custom suite/TestNG.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testng/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/testng/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testng/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/testng/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/TestNG.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Custom suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testng/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/testng/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/testng/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/testng/methods.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng/test.xml" afterDir="false" />
@@ -49,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ChromeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="120">
+              <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -258,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557838768182</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="dfsv">
+      <created>1557945196690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557945196690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -296,7 +321,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new classes" />
     <MESSAGE value="new classesdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="new classesdf" />
+    <MESSAGE value="dfsv" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfsv" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/HelloWorld.java" />
@@ -325,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ChromeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
         </state>
       </provider>
     </entry>
