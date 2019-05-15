@@ -2,18 +2,18 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="testng" duration-ms="164" started-at="2019-05-15T19:02:26Z" finished-at="2019-05-15T19:02:26Z">
+  <suite name="testng" duration-ms="258" started-at="2019-05-15T19:19:49Z" finished-at="2019-05-15T19:19:49Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="164" started-at="2019-05-15T19:02:26Z" finished-at="2019-05-15T19:02:26Z">
+    <test name="test" duration-ms="258" started-at="2019-05-15T19:19:49Z" finished-at="2019-05-15T19:19:49Z">
       <class name="com.ChromeTest">
-        <test-method status="FAIL" signature="main()[pri:0, instance:com.ChromeTest@4de8b406]" name="main" duration-ms="133" started-at="2019-05-15T22:02:26Z" finished-at="2019-05-15T22:02:26Z">
+        <test-method status="FAIL" signature="main()[pri:0, instance:com.ChromeTest@6a2bcfcb]" name="main" duration-ms="212" started-at="2019-05-15T22:19:49Z" finished-at="2019-05-15T22:19:49Z">
           <exception class="java.lang.IllegalStateException">
             <message>
-              <![CDATA[The driver executable does not exist: /Users/rohu/Downloads/chromedriver]]>
+              <![CDATA[The driver executable does not exist: /Users/rohu/Downloads/driver/chromedriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/rohu/Downloads/chromedriver
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: /Users/rohu/Downloads/driver/chromedriver
 	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
 	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
 	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)

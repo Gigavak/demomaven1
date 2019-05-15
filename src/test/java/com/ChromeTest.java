@@ -10,7 +10,8 @@ public class ChromeTest {
     @Test
     public static void main() {
 
-        System.setProperty("webdriver.chrome.driver", "/Users/rohu/Downloads/driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", ChromeTest.class.getResource("/chromedriver").getPath());
+                //("webdriver.chrome.driver", "/Users/rohu/Downloads/driver/chromedriver");
 
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
